@@ -12,7 +12,8 @@ const Home = () => {
 };
 
 const Wrapper = styled.div`
-  background-color: #ff6600;
+  background-color: var(--pink);
+  color: var(--light-blue);
   display: flex;
   justify-content: space-between;
   padding: 10px;
